@@ -1,0 +1,5 @@
+NumMods=2
+
+57.021464,C,fix,any,Carbamidomethyl
+15.994915,M,opt,any,Oxidation
+H1O3P1,STY,opt,any,Phospho

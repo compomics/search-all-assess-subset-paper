@@ -1,0 +1,48 @@
+% latex table generated in R 3.3.3 by xtable 1.8-2 package
+% Thu Apr 20 19:32:21 2017
+\begin{table}[ht]
+\centering
+\begin{tabular}{lrrrrrrr}
+  \hline
+db & db\_size & complete\_search\_total & complete\_search\_targets & complete\_search\_decoys & subset\_search\_total & subset\_search\_targets & subset\_search\_decoys \\ 
+  \hline
+complete & 4102.00 & 15053 & 13214 & 1839 &  &  &  \\ 
+  integral component of membrane & 762.00 & 601 & 398 & 203 & 14678 & 7477 & 7201 \\ 
+  ATP binding & 446.00 & 2879 & 2507 & 372 & 14889 & 8617 & 6272 \\ 
+  cytoplasm & 350.00 & 3027 & 2824 & 203 & 14708 & 8877 & 5831 \\ 
+  metal ion binding & 240.00 & 1954 & 1801 & 153 & 14495 & 8496 & 5999 \\ 
+  DNA binding & 174.00 & 949 & 809 & 140 & 14407 & 7781 & 6626 \\ 
+  translation & 128.00 & 970 & 915 &  55 & 13103 & 7231 & 5872 \\ 
+  oxidoreductase activity & 124.00 & 551 & 495 &  56 & 12616 & 6695 & 5921 \\ 
+  structural constituent of ribosome & 124.00 & 926 & 875 &  51 & 12841 & 7069 & 5772 \\ 
+  catalytic activity & 108.00 & 499 & 423 &  76 & 12997 & 6941 & 6056 \\ 
+  magnesium ion binding & 108.00 & 591 & 526 &  65 & 13212 & 7024 & 6188 \\ 
+  ATPase activity & 106.00 & 292 & 230 &  62 & 12809 & 6498 & 6311 \\ 
+  ribosome & 100.00 & 609 & 573 &  36 & 11926 & 6382 & 5544 \\ 
+  plasma membrane & 94.00 & 161 & 136 &  25 & 9467 & 4940 & 4527 \\ 
+  zinc ion binding & 86.00 & 433 & 369 &  64 & 12934 & 6796 & 6138 \\ 
+  RNA binding & 84.00 & 312 & 256 &  56 & 12729 & 6492 & 6237 \\ 
+  nucleic acid binding & 76.00 & 257 & 174 &  83 & 12540 & 6450 & 6090 \\ 
+  4 iron, 4 sulfur cluster binding & 74.00 & 674 & 632 &  42 & 11839 & 6504 & 5335 \\ 
+  transcription, DNA-templated & 72.00 & 337 & 305 &  32 & 10697 & 5701 & 4996 \\ 
+  transport & 66.00 &  89 &  62 &  27 & 9043 & 4525 & 4518 \\ 
+  transcription factor activity, sequence-specific DNA binding & 64.00 & 135 & 105 &  30 & 9921 & 5170 & 4751 \\ 
+  hydrolase activity & 58.00 & 207 & 184 &  23 & 9861 & 5110 & 4751 \\ 
+  iron-sulfur cluster binding & 56.00 & 126 &  91 &  35 & 10690 & 5505 & 5185 \\ 
+  rRNA binding & 56.00 & 522 & 507 &  15 & 9907 & 5349 & 4558 \\ 
+  carbohydrate metabolic process & 54.00 & 554 & 521 &  33 & 10432 & 5511 & 4921 \\ 
+  GTP binding & 54.00 & 689 & 656 &  33 & 10880 & 5995 & 4885 \\ 
+  transferase activity & 50.00 & 141 & 104 &  37 & 9384 & 4745 & 4639 \\ 
+  endonuclease activity & 48.00 & 340 & 261 &  79 & 12699 & 6579 & 6120 \\ 
+  transmembrane transport & 40.00 &  24 &  17 &   7 & 4119 & 2135 & 1984 \\ 
+  NAD binding & 36.00 & 213 & 201 &  12 & 8095 & 4212 & 3883 \\ 
+  pyridoxal phosphate binding & 36.00 & 487 & 459 &  28 & 9035 & 4729 & 4306 \\ 
+  tRNA binding & 36.00 & 218 & 186 &  32 & 10220 & 5236 & 4984 \\ 
+  sequence-specific DNA binding & 34.00 &  69 &  54 &  15 & 6245 & 3276 & 2969 \\ 
+  regulation of transcription, DNA-templated & 32.00 & 160 & 139 &  21 & 8180 & 4238 & 3942 \\ 
+  DNA repair & 30.00 & 121 & 107 &  14 & 8908 & 4630 & 4278 \\ 
+  helicase activity & 30.00 & 185 & 112 &  73 & 12156 & 6171 & 5985 \\ 
+  methyltransferase activity & 30.00 &  72 &  57 &  15 & 7169 & 3616 & 3553 \\ 
+   \hline
+\end{tabular}
+\end{table}

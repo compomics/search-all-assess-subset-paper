@@ -11,9 +11,9 @@ path = './'
 ## MSGF+ search
 ###############
 ### MSGF output is already available in a zip file in the msgfoutput folder.
-###Please unzip if you don't want to run the msgf+ database search yourself.
+### Please unzip if you don't want to run the msgf+ database search yourself.
 
-## MGF file is zipped to save space. Unzip.
+### MGF file is zipped to save space. Unzip.
 unzip(paste0(path,'mgf/','Dd2_ingel_soluble_Br02.mgf.zip'), exdir = paste0(path,'mgf/'))
 
 ### msgf+ search parameters

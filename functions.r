@@ -109,7 +109,9 @@ makeplots = function(df, title = FALSE){
 
   d = group_by(df,spec_id) %>%
     mutate(subsetpsm = any(method == 'all_sub') & any(method == 'sub_sub')) %>% ungroup %>%
-    filter(method == 'sub_sub',!decoy)
+    filter(method == 'sub_sub')
+  pi0 = sum(d$decoy)/sum(!d$decoy)
+  d = filter(d,!decoy)
   ylm = makeplot(d,ylim = ylm,sbst = TRUE,fdr = fdr,y_offset = TRUE)
   title('search-subset-asess-subset (sub-sub)',line = minline+1)
   title(bquote(~pi[0] ~'on'~ .(sum(!d$decoy))~'target PSMs: '
