@@ -1,8 +1,11 @@
-source('./../functions.r')
 library(saas)
 library(tidyverse)
 library(stringr)
 library(xtable)
+library(cowplot)
+### path to functions.r file
+source('../functions.r')
+### path to plasmodium folder
 path = './'
 
 ## MSGF+ search
@@ -107,6 +110,6 @@ lapply(dat,function(df){
   d = filter(df, database == 'complete', !(!decoy & !subset)) %>%
     mutate(score = -score)
   p = plot_diag(d)
-  cowplot::save_plot(file = paste0(plot_path, last(unique(df$database)),'.pdf'),p$all,
-                    ,base_width = 12, base_height = 8)
+  save_plot(file = paste0(plot_path, last(unique(df$database)),'.pdf'),p$all,
+           ,base_width = 12, base_height = 8)
 })
