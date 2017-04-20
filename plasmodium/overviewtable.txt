@@ -1,0 +1,14 @@
+% latex table generated in R 3.3.3 by xtable 1.8-2 package
+% Thu Apr 20 11:26:24 2017
+\begin{table}[ht]
+\centering
+\begin{tabular}{lrrrrrrr}
+  \hline
+db & db\_size & complete\_search\_total & complete\_search\_targets & complete\_search\_decoys & subset\_search\_total & subset\_search\_targets & subset\_search\_decoys \\ 
+  \hline
+complete & 50674.00 & 52510 & 38020 & 14490 &  &  &  \\ 
+  human & 40402.00 & 25865 & 16733 & 9132 & 52369 & 30286 & 22083 \\ 
+  plasmodium & 10272.00 & 27375 & 22001 & 5374 & 52304 & 34618 & 17686 \\ 
+   \hline
+\end{tabular}
+\end{table}
